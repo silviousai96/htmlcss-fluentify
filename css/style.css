@@ -24,6 +24,15 @@ img {
     display: inline-block;
 }
 
+.col {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 /* HEADER */
  
 header {
@@ -35,26 +44,14 @@ header {
     background-position: 125% 108%;
 }
 
-.container{
+.header-container{
     width: 80%;
     margin: 0 auto;
-}
-
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.col {
-    float: left;
 }
 
 nav {
     padding: 20px 0;    
 }
-
-
 
 .logo {
     width: 10%;
@@ -109,7 +106,9 @@ nav {
 .title .button {
     margin-top: 25px;
 }
+/*MAIN*/
 
+/* banner section*/
 .bg-grey {
     background-color: #d3d3d3;
 }
@@ -125,4 +124,48 @@ nav {
  .banner h3{
     padding-top: 10px;
     color: grey;
+}
+
+/* Description */
+
+.description {
+    background-color: white;
+}
+
+.description-container {
+    width: 80%;
+    margin: 30px auto;
+    height: 500px;  
+    text-align: center;
+}
+
+.d-left {
+    width: 30%;
+    
+}
+
+.d-center {
+    width: 30%;
+    margin: 0 5%;
+    
+}
+
+.d-right {
+    width: 30%;    
+}
+
+.d-img img {
+    height: 150px;
+}
+
+.description-container h2 {
+    color: #88c11a;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description-container h3 {
+    color: #959595;
+    margin-top: 20px;
+    font-size: 17px;
 }
