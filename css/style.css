@@ -106,6 +106,7 @@ nav {
 .title .button {
     margin-top: 25px;
 }
+
 /*MAIN*/
 
 /* banner section*/
@@ -181,5 +182,15 @@ div hr {
     margin: auto;
 }
 
+/* button fix */
+.button-fix .button {    
+    padding: 10px;    
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    position: fixed;
+    bottom: 0;
+    right: 150px;
+}
 
 
