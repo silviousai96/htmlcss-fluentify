@@ -16,10 +16,12 @@ img {
 }
 
 .button {    
-    padding: 10px 10px;
+    padding: 20px;
     border-radius: 5px;    
     background-color: #7cbb02;
     color: white;
+    text-decoration: none;
+    display: inline-block;
 }
 
 /* HEADER */
@@ -86,4 +88,17 @@ nav {
     padding: 10px 40px;
     border-radius: 5px;
 }
+.menu .button {
+    padding: 10px 10px;
+}
 
+.title h1 {
+    color: white;
+    width: 40%;
+    margin-top: 18%;
+    font-size: 40px;
+}
+
+.title .button {
+    margin-top: 25px;
+}
