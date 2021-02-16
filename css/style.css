@@ -73,7 +73,7 @@ nav {
 }
 
 .menu-right .menu {
-    padding-top: 8px;
+    padding-top: 7px;
 }
 
 .menu li{
@@ -129,14 +129,14 @@ nav {
 /* Description */
 
 .description {
-    background-color: white;
+    background-color: white;    
 }
 
 .description-container {
     width: 80%;
-    margin: 30px auto;
-    height: 500px;  
+    margin: 30px auto;  
     text-align: center;
+    
 }
 
 .d-left {
@@ -169,3 +169,17 @@ nav {
     margin-top: 20px;
     font-size: 17px;
 }
+
+.description-container span hr {
+    width: 20%;
+    display: inline-block;
+    padding-left: 20px;  
+}
+
+div hr {
+    width: 97%;
+    margin: auto;
+}
+
+
+
