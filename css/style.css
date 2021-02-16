@@ -115,5 +115,14 @@ nav {
 }
 
 .banner{
-    height: 100px;
+    height: 150px;
+    text-align: center;
+}
+ .banner h2{
+     padding-top: 50px;
+ }
+
+ .banner h3{
+    padding-top: 10px;
+    color: grey;
 }
