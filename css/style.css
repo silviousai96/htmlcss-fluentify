@@ -46,13 +46,15 @@ header {
     clear: both;
 }
 
+.col {
+    float: left;
+}
+
 nav {
     padding: 20px 0;    
 }
 
-.col {
-    float: left;
-}
+
 
 .logo {
     width: 10%;
@@ -65,16 +67,21 @@ nav {
 
 .menu-right {
     width: 40%;
+    
 }
 
 .menu {
-    list-style-type: none;
+    list-style-type: none;    
     padding-top: 13px;
+}
+
+.menu-right .menu {
+    padding-top: 8px;
 }
 
 .menu li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 20px;    
 }
 
 .menu li a {
@@ -101,4 +108,12 @@ nav {
 
 .title .button {
     margin-top: 25px;
+}
+
+.bg-grey {
+    background-color: #d3d3d3;
+}
+
+.banner{
+    height: 100px;
 }
