@@ -114,16 +114,17 @@ nav {
     background-color: #d3d3d3;
 }
 
-.banner{
-    height: 150px;
+.banner{    
     text-align: center;
 }
- .banner h2{
+
+.banner h2{
      padding-top: 50px;
  }
 
  .banner h3{
     padding-top: 10px;
+    padding-bottom: 40px;
     color: grey;
 }
 
