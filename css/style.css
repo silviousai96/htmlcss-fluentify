@@ -12,11 +12,78 @@ body {
 
 img {
     width: 100%;    
+    display: block;
+}
+
+.button {    
+    padding: 10px 10px;
+    border-radius: 5px;    
+    background-color: #7cbb02;
+    color: white;
 }
 
 /* HEADER */
  
-.container {
+header {
     height: 550px;
     background-color: #0c325a;
+    background-image: url('../img/background-header.png');
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: 125% 108%;
 }
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+nav {
+    padding: 20px 0;    
+}
+
+.col {
+    float: left;
+}
+
+.logo {
+    width: 10%;
+}
+
+.menu-central {
+    width: 50% ;   
+    padding-left: 30px;
+}
+
+.menu-right {
+    width: 40%;
+}
+
+.menu {
+    list-style-type: none;
+    padding-top: 13px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu li a {
+    text-decoration: none;    
+    font-size: 11px;
+    color: white;   
+}
+
+.menu .login {
+    border: 1px solid white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
